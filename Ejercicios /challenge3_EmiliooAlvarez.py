@@ -1,4 +1,6 @@
-temp = input("Input the  temperature you like to convert? (e.g., 45F, 102C etc.) : ")
+print('Welcome to the Temperature Conversion App')
+
+temp = input("what is the given temperatures in degrees fahrenheit(e.g., 45F, 102C etc.) : ")
 degree = int(temp[:-1])
 i_convention = temp[-1]
 
