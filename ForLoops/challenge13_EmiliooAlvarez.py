@@ -2,6 +2,8 @@ from math import factorial
 print('Welcome to the Factorial Calculator App')
 num=int(input('What number would you like to compute the factorial of?:'))
 
+for x in range(1,num+1):
+    print(f'{num}! ==end''' )
 
 def factorial(num): 
     if num < 0: 
@@ -17,6 +19,6 @@ def factorial(num):
             num -= 1
         return fact 
 
-num = 5; 
 
 print("Factorial of",num,"is", factorial(num)) 
+
